@@ -1,0 +1,108 @@
+/* CSS Start */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #399fff;
+  border: #00c01a 0.3em solid;
+  border-radius: 1em;
+  display: flex;
+}
+
+/* Container */
+
+.container {
+  border: #00c01a 0.3em solid;
+  width: 30%;
+  min-width: 450px;
+  margin: auto;
+  background: #eaeaea;
+  border-radius: 1em;
+  transition: 0.3s;
+  box-shadow: 1px 1px 1px 1px #055317;
+}
+
+.container:hover {
+  box-shadow: 1px 1px 5px 3px #055317;
+}
+
+/* New Task */
+
+#newtask {
+  padding: 2em 1em;
+}
+
+#newtask input {
+  width: 80%;
+  height: 2.8em;
+  border: 1px solid #d1d3d4;
+  padding: 0.5em;
+  font-weight: 500;
+  border-radius: 0.5em;
+}
+
+#newtask input:focus {
+  border-color: #399fff;
+}
+
+/* Button - Add */
+
+#newtask button {
+  float: right;
+  width: 20%;
+  height: 3em;
+  border-radius: 0.5em;
+  font-size: 16px;
+  background-color: #399fff;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#newtask button:hover {
+  background-color: #0075e3;
+}
+
+/* Tasks */
+
+#tasks {
+  padding: 2em 1em;
+  border-radius: 1em;
+  width: 100%;
+}
+
+.task {
+  border: 2px solid #000;
+  background-color: #00c01a;
+  height: 2.5em;
+  margin-bottom: 0.2em;
+  padding: 0.2em 0.2em;
+  display: flex;
+  border-radius: 0.3em;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.task span {
+  font-size: 0.8em;
+}
+
+/* Button - Trash */
+
+.task button {
+  background-color: #0075e3;
+  color: #fff;
+  height: 100%;
+  width: 10%;
+  border-radius: 0.3em;
+  cursor: pointer;
+}
+
+/* CSS End - ASH: AlirezaSharifi */
